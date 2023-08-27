@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    width: 1024px;
+    font-size: 12px;
+}
+
+.footerLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footerList{
+    list-style: none;
+    padding: 0;
+}
+
+.footerListItem{
+    margin-bottom: 10px;
+    color: #800000;
+    cursor: pointer;
+}
+
+.footerText{
+    display: flex;
+    justify-content: flex-end;
+    font-size: medium;
+    margin-top: 0px;
+    padding: 0;
+}

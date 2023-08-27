@@ -1,0 +1,48 @@
+.likedProperties{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.likedPropertiesItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+}
+
+.likedPropertiesImage{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.likedPropertiesName{
+    font-weight: bold;
+}
+
+.likedPropertiesCity{
+    font-weight: 300;
+}
+
+.likedPropertiesPrice{
+    font-weight: 500;
+}
+
+.likedPropertiesRating > button{
+    background-color: #800000;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.likedPropertiesImage > span{
+    font-size: 14px;
+}

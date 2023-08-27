@@ -1,0 +1,140 @@
+.header{
+    background-color: #800000;
+    color: #FDF5E6;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItems{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItems.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.headerDescription{
+    margin: 20px 0px;
+}
+
+.headerButton{
+    background-color: #efe1c6;
+    color: #800000;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerIcon{
+    color: rgb(174, 173, 173);
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+
+.headerSearchText{
+    color: lightgray;
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.users{
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -2px black;
+    padding: 10px;
+    z-index: 2;
+}
+
+.usersItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.usersCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.usersCounterButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #800000;
+    color: #800000;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.usersCounterButton:disabled{
+    border-color: grey;
+}
+
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px;
+}
